@@ -1,0 +1,19 @@
+.header_container{
+    width: 100%;
+    padding: 10px 30px;
+    height: 70px;
+    border-bottom: 2px solid black;
+}
+.add_card_btn{
+    margin-right:40px ;
+}
+.add_card_btn, .sort_card_btn{
+    padding: 10px;
+    background-color: white;
+    border: 2px solid rgba(9, 9, 139, 0.888);
+    cursor: pointer;
+}
+.add_card_btn:hover, .sort_card_btn:hover{
+    background-color: rgba(9, 9, 139, 0.888);
+    color: white;
+}
